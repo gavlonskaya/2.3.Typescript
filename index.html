@@ -1,0 +1,158 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="desciption" content="yves saint laurent, ив сен лоран" />
+    <meta
+      name="keywords"
+      content="yves saint laurent, ив сен лоран, ароматы, парфюм,духи"
+    />
+    <meta name="author" content="Гавлонская" />
+    <title>Yves Saint Laurent - официальный сайт</title>
+    <style media="all">
+      @import url(styles.css);
+    </style>
+  </head>
+  <body>
+    <div class="png">
+      <img
+        src="https://yslbeauty.com.ru/static/version1633525595/frontend/Ewave/ysl/ru_RU/images/logo.svg"
+      />
+    </div>
+    <nav class="menu">
+      <a href="/pages/history.html">ИСТОРИЯ</a>
+      <a>АРОМАТЫ</a>
+      <a href="/pages/stock.html">АКЦИИ</a>
+      <a href="/pages/program.html">ПРОГРАММА ЛОЯЛЬНОСТИ</a>
+      <div class="basket">
+        <a class="basket-link" href="#popup"
+          ><img
+            class="basket-img"
+            src="https://i.pinimg.com/564x/ea/bc/62/eabc62ca9a760cbb80ff61ecfd642589.jpg"
+            width="50"
+            id="menu-basket"
+            onclick="open_basket();"
+        /></a>
+      </div>
+    </nav>
+    <header>
+      <div class="advertisement">
+        <div class="advertisement-perfume">
+          <img
+            class="png-perfume"
+            src="https://yslbeauty.com.ru/media/catalog/product/cache/8471f7bdbf17f6c22667c56281d644fb/y/s/ysl_dmi_fraw_bo-edp-extreme_alt-view_digital.jpg"
+          />
+        </div>
+        <div class="blackopium">
+          <div class="description">
+            <h2>
+              <i>BLACK OPIUM - </i><br />
+              ГЛУБОКАЯ, НАСЫЩЕННАЯ И ПРИТЯГАТЕЛЬНАЯ КОМПОЗИЦИЯ, КОТОРАЯ ДАРИТ
+              ВДОХНОВЕНИЕ, ПРОБУЖДАЕТ СКРЫТЫЕ ЧУВСТВА И ЭМОЦИИ
+            </h2>
+            <button class="kit">НАБОР</button>
+          </div>
+          <div class="advertisement-girl">
+            <img
+              class="png-girl"
+              src="https://madmasel.com/wp-content/uploads/2020/05/black-opium-image-768x443.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h3>Ароматы&nbsp;&mdash;&nbsp;Black Opium</h3>
+
+      <section class="shop">
+        <template id="icon-temp">
+          <div class="icon">
+            <div class="icon-img">
+              <img class="perfume-img" src="" />
+            </div>
+            <div class="perfume-info">
+              <div class="title"></div>
+              <div class="section"></div>
+              <div class="price"></div>
+              <div class="button">
+                <button class="detail">Подробнее</button>
+                <button class="buy">Купить</button>
+              </div>
+            </div>
+          </div>
+        </template>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-body">
+        <div class="footer-column">
+          <div class="column-1">
+            <div class="column-line">
+              <div class="column-line-1">
+                <h4>
+                  8 800 5008597<br />
+                  YVES_SAINT_LAURENT@GMAIL.COM
+                </h4>
+              </div>
+              <div class="column-line-2">
+                <h4>&copy;&nbsp;2021 YSL Beauté. All Rights Reserved</h4>
+              </div>
+            </div>
+          </div>
+          <div class="column-2"></div>
+          <div class="column-3">
+            <div class="column-line">
+              <div class="column-line-3">
+                <div class="icon-line-3">
+                  <img
+                    src="https://img.icons8.com/ios/40/ffffff/facebook--v1.png"
+                  />
+                  <img
+                    src="https://img.icons8.com/ios/40/ffffff/twitter-squared.png"
+                  />
+                  <img
+                    src="https://img.icons8.com/ios/40/ffffff/instagram-new--v1.png"
+                  />
+                  <img
+                    src="https://img.icons8.com/ios/40/ffffff/youtube-squared.png"
+                  />
+                </div>
+              </div>
+              <div class="column-line-4">
+                <h4>Website by GAVLONSKYA</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="basket">
+        <template id="popup">
+          <div class="popup-body">
+            <div class="popup-content">
+              <a
+                href="#"
+                class="popup-close"
+                id="popup-close"
+                onclick="_basket()"
+              >
+                х
+              </a>
+              <div class="popup-title">Ваш заказ:</div>
+              <div class="popup-list">
+                <template id="temp-list">
+                  <ul>
+                    <li class="popup-name"></li>
+                    <span class="popup-price"></span>
+                  </ul>
+                </template>
+              </div>
+              <a href="#" class="popup-close" onclick="_basket()"></a>
+              <button class="checkout">Заказать</button>
+            </div>
+          </div>
+        </template>
+      </div>
+      <section class="popupsection"></section>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

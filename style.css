@@ -1,0 +1,646 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 0;
+  width: 100%;
+}
+.png {
+  text-align: center;
+  margin: 40pt 0pt 40pt 0pt;
+}
+.menu {
+  flex-direction: row;
+  font: 11pt 'Arial';
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+nav img {
+  margin: -12pt 0pt 0pt 0pt;
+}
+nav a,
+nav li {
+  display: flex;
+  margin-bottom: 3%;
+  color: black;
+  margin-right: 5%;
+}
+nav a:link,
+nav a:visited {
+  color: black;
+  text-decoration: none;
+  transition-duration: 1s;
+}
+nav a:active,
+nav a:hover {
+  color: black;
+  text-decoration: none;
+  transform: scale(1.2, 1.2) translateY(4px);
+  transition-duration: 0.5s;
+}
+header {
+  width: 100%;
+}
+.advertisement {
+  display: flex;
+}
+.png-perfume {
+  margin: 0pt 0pt 0pt 0pt;
+  padding: 0px;
+}
+h2 {
+  margin-left: 30%;
+  text-align: center;
+  font: 11pt 'Arial';
+  color: rgb(59, 59, 59);
+  line-height: 1.5;
+  width: 40%;
+  position: relative;
+}
+.kit {
+  margin: 0pt 0pt 0pt 0pt;
+  width: 140px;
+  height: 35px;
+  background-color: white;
+  color: rgb(59, 59, 59);
+  font: 9pt 'Arial';
+  position: relative;
+  margin-top: 5%;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+.png-perfume {
+  height: 100%;
+}
+.description {
+  height: 35%;
+}
+.advertisement-girl {
+  position: relative;
+  height: 65%;
+}
+.png-girl {
+  margin: 0pt 0pt 0pt 0pt;
+  padding-top: 0px;
+  height: 100%;
+}
+main {
+  font-size: 0;
+}
+h3 {
+  margin: 3% 20%;
+  text-align: center;
+  justify-content: space-between;
+  font: 15pt 'Franklin Gothic Medium';
+  color: rgb(59, 59, 59);
+}
+.shop {
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(3, 34%);
+  justify-items: center;
+  margin: 5% 10%;
+}
+.perfume-img {
+  margin: 0pt 0pt 14pt 0pt;
+}
+.perfume-info {
+  display: flex;
+  flex-direction: column;
+  width: 301px;
+  height: 150px;
+}
+.title {
+  width: 100%;
+  height: 32%;
+  text-align: center;
+  justify-content: space-between;
+  font: 13pt 'Franklin Gothic Medium';
+  color: rgb(59, 59, 59);
+}
+.section {
+  width: 100%;
+  height: 16%;
+  text-align: center;
+  justify-content: space-between;
+  font: 8pt 'Arial';
+  color: rgb(78, 78, 78);
+}
+.h5 {
+  text-align: left;
+}
+h5 {
+  margin: 0pt 0pt 8pt 0pt;
+  text-align: center;
+  justify-content: space-between;
+  font: 13pt 'Arial';
+  color: rgb(59, 59, 59);
+}
+.button {
+  width: 100%;
+  height: 26%;
+  display: flex;
+  justify-content: center;
+}
+
+.detail {
+  background-color: rgba(194, 194, 194, 0.274);
+  color: black;
+  font: 11pt 'Arial';
+  width: 38%;
+  height: 100%;
+  border-color: rgba(194, 194, 194, 0.274);
+}
+.buy {
+  width: 25%;
+  height: 100%;
+  margin: 0pt 0pt 30pt 0pt;
+  background-color: black;
+  color: white;
+  font: 11pt 'Arial';
+}
+.footer {
+  width: 100%;
+  padding-top: 4%;
+  background: white;
+}
+.footer-body {
+  width: calc(100% - 21%);
+  height: 40%;
+  position: relative;
+  margin: 0 auto;
+  background: rgb(15, 15, 15);
+  margin-bottom: 3%;
+}
+.footer-column {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.column-1 {
+  width: 40%;
+  height: 100%;
+}
+.column-line {
+  width: 100%;
+  display: block;
+}
+.column-line-1 {
+  width: 100%;
+  height: 50%;
+}
+.column-line-1 h4 {
+  text-align: left;
+  margin: 10% 0pt 0pt 17%;
+  font: 12pt 'Arial';
+  color: white;
+  letter-spacing: 2px;
+  line-height: 1.9;
+}
+.column-line-2 {
+  width: 100%;
+}
+.column-line-2 h4 {
+  text-align: left;
+  margin: 2.5% 0pt 0pt 17%;
+  font: 9pt 'Arial';
+  color: rgb(194, 194, 194);
+  letter-spacing: 2px;
+}
+.column-2 {
+  width: 20%;
+  height: 100%;
+}
+.column-line-3 {
+  width: 100%;
+  height: 30%;
+}
+.icon-line-3 {
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(4, 12%);
+  justify-items: center;
+  margin-top: 8%;
+  margin-left: 10%;
+}
+.column-line-4 {
+  width: 100%;
+}
+.column-line-4 h4 {
+  text-align: right;
+
+  font: 9pt 'Arial';
+  color: rgb(194, 194, 194);
+  letter-spacing: 2px;
+}
+.column-3 {
+  width: 40%;
+  height: 100%;
+}
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.733);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  transition: all 0.7s ease 0s;
+}
+.popup-body {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.733);
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+.popup:target {
+  opacity: 1;
+  visibility: visible;
+}
+.popup-content {
+  background-color: white;
+  color: black;
+  max-width: 800px;
+  padding: 30px;
+  justify-self: center;
+  position: absolute;
+}
+.popup-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font: 28px 'Arial';
+  color: black;
+  text-decoration: none;
+}
+.popup-title {
+  font: 30px 'Franklin Gothic Medium';
+  margin: 0px 0px 1em 0px;
+}
+.popup-list {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 300px;
+  width: 550px;
+}
+.popup-list ul li {
+  display: flex;
+  justify-content: space-between;
+}
+.popup-name {
+  margin: 0px 0px 20px 0px;
+  font: 12pt 'Arial';
+  color: black;
+  text-align: left;
+}
+.popup-price {
+  margin: 0px 0px 20px 0px;
+  font: 12pt 'Arial';
+  color: black;
+  text-align: right;
+}
+.checkout {
+  width: 150px;
+  height: 50px;
+  margin-top: 2%;
+  background-color: black;
+  color: white;
+  font: 17pt 'Arial';
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.contact {
+  margin-top: 20px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 0;
+  width: 100%;
+}
+.png {
+  text-align: center;
+  margin: 40pt 0pt 40pt 0pt;
+}
+.menu {
+  flex-direction: row;
+  font: 11pt 'Arial';
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+nav img {
+  margin: -12pt 0pt 0pt 0pt;
+}
+nav a,
+nav li {
+  display: flex;
+  margin-bottom: 3%;
+  color: black;
+  margin-right: 5%;
+}
+nav a:link,
+nav a:visited {
+  color: black;
+  text-decoration: none;
+  transition-duration: 1s;
+}
+nav a:active,
+nav a:hover {
+  color: black;
+  text-decoration: none;
+  transform: scale(1.2, 1.2) translateY(4px);
+  transition-duration: 0.5s;
+}
+header {
+  width: 100%;
+}
+.advertisement {
+  display: flex;
+}
+.png-perfume {
+  margin: 0pt 0pt 0pt 0pt;
+  padding: 0px;
+}
+h2 {
+  margin-left: 30%;
+  text-align: center;
+  font: 11pt 'Arial';
+  color: rgb(59, 59, 59);
+  line-height: 1.5;
+  width: 40%;
+  position: relative;
+}
+.kit {
+  margin: 0pt 0pt 0pt 0pt;
+  width: 140px;
+  height: 35px;
+  background-color: white;
+  color: rgb(59, 59, 59);
+  font: 9pt 'Arial';
+  position: relative;
+  margin-top: 5%;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+.png-perfume {
+  height: 100%;
+}
+.description {
+  height: 35%;
+}
+.advertisement-girl {
+  position: relative;
+  height: 65%;
+}
+.png-girl {
+  margin: 0pt 0pt 0pt 0pt;
+  padding-top: 0px;
+  height: 100%;
+}
+main {
+  font-size: 0;
+}
+h3 {
+  margin: 3% 20%;
+  text-align: center;
+  justify-content: space-between;
+  font: 15pt 'Franklin Gothic Medium';
+  color: rgb(59, 59, 59);
+}
+.shop {
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(3, 34%);
+  justify-items: center;
+  margin: 5% 10%;
+}
+.perfume-img {
+  margin: 0pt 0pt 14pt 0pt;
+}
+.perfume-info {
+  display: flex;
+  flex-direction: column;
+  width: 301px;
+  height: 150px;
+}
+.title {
+  width: 100%;
+  height: 32%;
+}
+h4 {
+  justify-content: space-between;
+  font: 13pt 'Franklin Gothic Medium';
+  color: rgb(59, 59, 59);
+}
+.p {
+  width: 100%;
+  height: 16%;
+}
+p {
+  text-align: center;
+  justify-content: space-between;
+  font: 8pt 'Arial';
+  color: rgb(78, 78, 78);
+}
+.price {
+  margin: 0pt 0pt 8pt 0pt;
+  text-align: center;
+  justify-content: space-between;
+  font: 13pt 'Arial';
+  color: rgb(59, 59, 59);
+}
+.button {
+  width: 100%;
+  height: 26%;
+  display: flex;
+  justify-content: center;
+}
+
+.detail {
+  background-color: rgba(194, 194, 194, 0.274);
+  color: black;
+  font: 11pt 'Arial';
+  width: 38%;
+  height: 100%;
+  border-color: rgba(194, 194, 194, 0.274);
+}
+.buy {
+  width: 25%;
+  height: 100%;
+  margin: 0pt 0pt 30pt 0pt;
+  background-color: black;
+  color: white;
+  font: 11pt 'Arial';
+}
+.footer {
+  width: 100%;
+  padding-top: 4%;
+  background: white;
+}
+.footer-body {
+  width: calc(100% - 21%);
+  height: 40%;
+  position: relative;
+  margin: 0 auto;
+  background: rgb(15, 15, 15);
+  margin-bottom: 3%;
+}
+.footer-column {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.column-1 {
+  width: 40%;
+  height: 100%;
+}
+.column-line {
+  width: 100%;
+  display: block;
+}
+.column-line-1 {
+  width: 100%;
+  height: 50%;
+}
+.column-line-1 h4 {
+  text-align: left;
+  margin: 10% 0pt 0pt 17%;
+  font: 12pt 'Arial';
+  color: white;
+  letter-spacing: 2px;
+  line-height: 1.9;
+}
+.column-line-2 {
+  width: 100%;
+}
+.column-line-2 h4 {
+  text-align: left;
+  margin: 2.5% 0pt 0pt 17%;
+  font: 9pt 'Arial';
+  color: rgb(194, 194, 194);
+  letter-spacing: 2px;
+}
+.column-2 {
+  width: 20%;
+  height: 100%;
+}
+.column-line-3 {
+  width: 100%;
+  height: 50%;
+}
+.column-line-4 {
+  width: 100%;
+}
+.column-line-4 h4 {
+  text-align: right;
+  margin: 11% 17% 0pt 0pt;
+  font: 9pt 'Arial';
+  color: rgb(194, 194, 194);
+  letter-spacing: 2px;
+}
+.column-3 {
+  width: 40%;
+  height: 100%;
+}
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.733);
+  top: 0;
+  left: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  transition: all 0.7s ease 0s;
+}
+.popup-body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+.popup:target {
+  opacity: 1;
+  visibility: visible;
+}
+.popup-content {
+  background-color: white;
+  color: black;
+  max-width: 800px;
+  padding: 30px;
+  position: relative;
+}
+.popup-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font: 28px 'Arial';
+  color: black;
+  text-decoration: none;
+}
+.popup-title {
+  font: 30px 'Franklin Gothic Medium';
+  margin: 0px 0px 1em 0px;
+}
+.popup-list {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 300px;
+  width: 550px;
+}
+.popup-list ul {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 5px;
+}
+.popup-name {
+  margin: 0px 0px 20px 0px;
+  font: 12pt 'Arial';
+  color: black;
+  text-align: left;
+}
+.popup-price {
+  margin: 0px 0px 20px 0px;
+  font: 12pt 'Arial';
+  color: black;
+  text-align: right;
+}
+.checkout {
+  width: 150px;
+  height: 50px;
+  margin-top: 2%;
+  background-color: black;
+  color: white;
+  font: 17pt 'Arial';
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.contact {
+  margin-top: 20px;
+}
+.remove {
+  background-image: url(https://img.icons8.com/material-outlined/25/000000/close-window.png);
+  width: 25px;
+  height: 25px;
+  margin: 0px 0pt 4% 10%;
+  border: 0;
+}
