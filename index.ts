@@ -59,13 +59,13 @@ class Product {
 }
 
 const product: Product = new Product(
-  'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/y/s/ysl_dmi_fraw_bo-edp-extreme_packshot_front_30ml_1500x2000px_3614273256506_rgb_2_1.jpg',
+  'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/y/s/ysl_dmi_fraw_bo-edp-extreme_packshot_front_30ml_1500x2000px_3614273256506_rgb_2_1-min.jpg',
   'BLACK OPIUM EXTREME DE PARFUM',
   'ПАРФЮМЕРНАЯ ВОДА',
   '4 837 р.'
 );
 const product_2: Product = new Product(
-  'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/b/l/BLACK-OPIUM-main.png',
+  'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/b/l/black-opium-main_1-min.jpg',
   'BLACK OPIUM EAU DE PARFUM',
   'ПАРФЮМЕРНАЯ ВОДА',
   '4 837 р.'
@@ -95,7 +95,7 @@ const product_6: Product = new Product(
   '6 825 р.'
 );
 const product_7: Product = new Product(
-  'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/o/p/OPIUM-main.png',
+  'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/o/p/opium-main.jpg',
   'OPIUM',
   'ПАРФЮМЕРНАЯ ВОДА',
   '4 912 р.'
@@ -107,11 +107,31 @@ const product_8: Product = new Product(
   '4 837 р.'
 );
 const product_9: Product = new Product(
-  'https://i.pinimg.com/564x/e7/dd/b2/e7ddb2ba2311d98bb50605d885f725a4.jpg',
-  'BLACK OPIUM 2 в 1',
+  'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/s/e/set_4.jpg',
+  'BLACK OPIUM DARK ICONS',
   'ПОДАРОЧНЫЙ НАБОР',
-  '3 867 р.'
+  '9 060 р.'
 );
+const product_10: Product = new Product(
+  'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/3/6/3614273620468.jpg',
+  'FRAGRANCE ICONS',
+  'ПОДАРОЧНЫЙ НАБОР',
+  '3 750 р.'
+);
+const product_11: Product = new Product(
+  'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/3/6/3614273610575.jpg',
+  'DANCE ALL NIGHT',
+  'ПОДАРОЧНЫЙ НАБОР',
+  '4 837 р.'
+);
+const product_12: Product = new Product(
+  'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/3/6/3614273609852.jpg',
+  'YOUR COLOR, YOUR CHARACTER',
+  'ПОДАРОЧНЫЙ НАБОР',
+  '2 700 р.'
+);
+
+
 new Icon(product);
 new Icon(product_2);
 new Icon(product_3);
@@ -121,6 +141,9 @@ new Icon(product_6);
 new Icon(product_7);
 new Icon(product_8);
 new Icon(product_9);
+new Icon(product_10);
+new Icon(product_11);
+new Icon(product_12);
 
 const onBasket: HTMLDivElement = document.getElementById('menu-basket');
 
